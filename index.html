@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-1 fw-bold text-dark" href="#">JusDial</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="p-2 flex-grow-1 bd-highlight"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark fs-5 fw-bold" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fs-5 fw-bold" href="#">Directory</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fs-5 fw-bold" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mx-5">
+                <i class="fa-regular fa-user fs-3"></i>
+            </div>
+            <div class="mx-3">
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-plus mx-2"></i>Add Listing</button>
+            </div>
+        </div>
+    </nav>
+    <div id="hero" class="d-flex flex-column justify-content-center">
+        <h1>A Fantastic Website Foodie Hub, Travel Bug & More</h1>
+        <p>Phasellus non nulla justo. Ut sollicitudin blandit nulla, quis pharetra tortor feugiat quis. Donec rhoncus,
+            enim nec rhoncus hendrerit, mi mi euismod ligul ed sollicitudin ex purus vel orci. Aenean id libero
+            pharetra.</p>
+        <div class="row m-2">
+            <div class="col-md-6">
+                <div class="p-3 bg-light  rounded-2 search-element form-control">
+                    <input type="text" class="mx-2">
+                    <select class="mx-2">
+                        <option>select location</option>
+                    </select>
+                    <button type="button" class="btn btn-danger mx-2"><i
+                            class="fa-solid fa-magnifying-glass mx-2"></i>Search</button>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+    <div id="places">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <i class="fa-regular fa-building"></i>
+                    <h1>Places</h1>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center rounded-5">
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h1>Fitness & Gym</h1>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <i class="fa-solid fa-bed"></i>
+                    <h1>Hotel And Stay</h1>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h1>Education</h1>
+                </div>
+            </div>
+        </div>
+        <div class="DiscoverNearbyPlaces  d-flex flex-column justify-content-center  ">
+            <h1>Discover Nearby Places</h1>
+            <p>Duis vel interdum elit. Vivamus vel risus est. Integer a porta Quisque nisi felis, tincidunt cursus
+                efficitur at.</p>
+            <div class="row  my-5">
+                <div class="col-md-3">
+                    <div class="card shadow-lg my-2">
+                        <img class="mx-4 my-4 rounded-1 img-fluid"
+                            src="https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?s=1024x1024&w=is&k=20&c=QPHFTWoscwMSXOEGKoAKOjlCnMGszppFBrqQHdy4EGc="
+                            alt="">
+                        <p class=" m-2">Sed faucibus aliquam faucibus hasell. Lorem ipsum dolor sit amet, consectetur
+                            adipisci ng...
+                        </p>
+                        <hr>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-burger fs-2 mx-2 my-2"></i>
+                            <div class="mx-2">
+                                <h5 class="fs-5 fw-lighter">Restaurent & eatery</h5>
+                                <h1 class="fs-5 fw-bold">Mars BBQ</h1>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-light mx-2 my-3">Form $ 240</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg my-2">
+                        <img class="mx-4 my-4 rounded-1 img-fluid"
+                            src="https://media.istockphoto.com/id/671413740/photo/young-indian-man-and-two-women-spending-some-time-together-in-a-jodhpur-restaurant.jpg?s=1024x1024&w=is&k=20&c=D0r2X2jKiia0CVfrZtYNaMcbvfkQGsY7rfxo5GNT7yU="
+                            alt="">
+                        <p class=" m-2">Dolor sit amet lorem ipsum, consectetur adipisci ng elit. Sed faucibus aliquam
+                            faucibus...
+                        </p>
+                        <hr>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-binoculars fs-2 mx-2 my-2"></i>
+                            <div class="mx-2">
+                                <h5 class="fs-5 fw-lighter">Tour & Destination</h5>
+                                <h1 class="fs-5 fw-bold">Bruna Private Beach </h1>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-light mx-2 my-3">Form $ 240</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg my-2">
+                        <img class="mx-4 my-4 rounded-1 img-fluid"
+                            src="https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?s=1024x1024&w=is&k=20&c=QPHFTWoscwMSXOEGKoAKOjlCnMGszppFBrqQHdy4EGc="
+                            alt="">
+                        <p class=" m-2">Dolor sit amet lorem ipsum, consectetur adipisci ng elit. Sed faucibus aliquam
+                            faucibus...
+                        </p>
+                        <hr>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-bed fs-2 mx-2 my-2"></i>
+                            <div class="mx-2">
+                                <h5 class="fs-5 fw-lighter">Hotel & Stay</h5>
+                                <h1 class="fs-5 fw-bold">Gloary stay inn</h1>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-light mx-2 my-3">Form $ 240</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg my-2">
+                        <img class="mx-4 my-4 rounded-1"
+                            src="https://media.istockphoto.com/id/671413740/photo/young-indian-man-and-two-women-spending-some-time-together-in-a-jodhpur-restaurant.jpg?s=1024x1024&w=is&k=20&c=D0r2X2jKiia0CVfrZtYNaMcbvfkQGsY7rfxo5GNT7yU="
+                            alt="">
+                        <p class=" m-2">Dolor sit amet lorem ipsum, consectetur adipisci ng elit. Sed faucibus aliquam
+                            faucibus...
+                        </p>
+                        <hr>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-martini-glass fs-2 mx-2 my-2"></i>
+                            <div class="mx-2">
+                                <h5 class="fs-5 fw-lighter">Pub & Bar</h5>
+                                <h1 class="fs-5 fw-bold">The Redwood bar</h1>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-light mx-4 my-3">Form $ 24</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="CheapAndChearfulDestination">
+            <h1>Cheap And Cheerful Destination</h1>
+            <p>Maecenas at quam egestas, vestibulum odio id, consequat ex. Duis facilisis conv allis nisl nec tempor.
+                Donec consectetur dapibus ultricies. Fusce luctus lobo.</p>
+            <div class="row mx-2">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="img-fluid rounded-2"
+                            src="https://images.pexels.com/photos/929677/pexels-photo-929677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </div>
+                    <h3 class="text-center my-4">Canberra</h3>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="img-fluid rounded-2"
+                            src="https://images.pexels.com/photos/297303/pexels-photo-297303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </div>
+                    <h3 class="text-center my-4">Melbourne</h3>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="img-fluid rounded-2"
+                            src="https://images.pexels.com/photos/929677/pexels-photo-929677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </div>
+                    <h3 class="text-center my-4">Newcastel</h3>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img class="img-fluid rounded-2"
+                            src="https://images.pexels.com/photos/297303/pexels-photo-297303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </div>
+                    <h3 class="text-center my-4">Hobart</h3>
+                </div>
+            </div>
+        </div>
+        <div class="PlanVaccationtotheFullest  my-3">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h1>Plan Vacation to the Fullest</h1>
+                <p>Nullam vehicula ipsum a arcu cursus vitae congue. In egestas erat imrdiet sed
+                    euismod. Lacus
+                    laoreet non curabitur gravida arcu ac tortor dignissim.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 my-2">
+                    <h1 class="text-center">Find a Place</h1>
+                    <p class="text-center mx-5 ">Fermentum et sollicitudin ac orci phasell.</p>
+                </div>
+                <div class="col-md-4 my-2">
+                    <h1 class="text-center">Review Plans</h1>
+                    <p class="text-center mx-5">Rgestas maecenas at quam allis nisl nec tempor.</p>
+                </div>
+                <div class="col-md-4 my-2">
+                    <h1 class="text-center">Book Today</h1>
+                    <p class="text-center mx-5">At varius vel pharetra vel turpis nunc eget lorem.</p>
+                </div>
+            </div>
+        </div>
+        <div class="EnjoyAShtonoshingDiscountsandOffer">
+            <h1>Enjoy AShtonoshing Discounts and Offer</h1>
+            <p>Vestibulum non felis vel orci ultricies aliquam ac a leo. Vestibulum a nibh semper, var ius justo
+                vestibulum, gravida nisl. Integer et odio elit. Curabitur</p>
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <div class="card mx-4">
+                        <img class="img-fluid my-2 mx-2"
+                            src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mx-4">
+                        <img class="img-fluid my-2 mx-2"
+                            src="https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="DontWaitAnyLonger d-flex flex-column justify-content-center align-items-center my-5">
+            <h1>Don't Wait Any Longer </h1>
+            <p>Proin fermentum leo vel orci porta non pulvinar neque. Fermentum odio eu feugiat pretium ipsum.
+            </p>
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <div class="card rounded-1 shadow-lg my-2">
+                        <div class="row m-2">
+                            <div class="col-md-4 ">
+                                <img class="img-fluid"
+                                    src="https://images.pexels.com/photos/170809/pexels-photo-170809.jpeg" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <h1>Smooth Dress Maker</h1>
+                                <h5 class="fw-lighter">senior cloth analyst</h5>
+                                <h5 class="fw-lighter">Feugiat in fermentum posuere urna nec tincidunt pra</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow-lg my-2">
+                        <div class="row m-2">
+                            <div class="col-md-4">
+                                <img class="img-fluid m-2"
+                                    src="https://images.pexels.com/photos/170809/pexels-photo-170809.jpeg" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <h1>Smooth Dress Maker</h1>
+                                <h5 class="fw-lighter">senior cloth analyst</h5>
+                                <h5 class="fw-lighter">Feugiat in fermentum posuere urna nec tincidunt pra</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" rightrow">
+            <div class="col-md-6">
+                <div class="card shadow-lg">
+                    <div class="row m-2">
+                        <div class="col-md-4">
+                            <img class="img-fluid m-2"
+                                src="https://images.pexels.com/photos/170809/pexels-photo-170809.jpeg" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h1>Smooth Dress Maker</h1>
+                            <h5 class="fw-lighter">senior cloth analyst</h5>
+                            <h5 class="fw-lighter">Feugiat in fermentum posuere urna nec tincidunt pra</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6"></div>
+        <div class="merelyfewstepaway my-5">
+            <div class="card mx-2 rounded-4">
+                <div class="row">
+                    <div class="col-md-6 my-3">
+                        <h1>Merely a few steps away. Get listed today for free!</h1>
+                        <p>Duis vel interdum elit. Vivamus vel risus est. Integer a porta magna, vel efficitur
+                            metus. Quisq felis, tincidunt cursus efficitur m elit. Vivamporta magna, vel efficint in
+                            elit.idunt in elit.</p>
+                        <div class="mx-4">
+                            <button type="button" class="btn btn-danger ">Contact Us</button>
+                            <button type="button" class="btn btn-outline-dark mx-1 my-1">Add Listing</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card my-5">
+                            <div class="m-3">
+                                <input type="text" placeholder="First Name" class=" p-2 m-2">
+                                <input class="p-2 m-2" type="text" placeholder="Last Name">
+                            </div>
+                            <select class="p-2 m-2">
+                                <option>Category or Field Work</option>
+                                <option>Category</option>
+                                <option>Field Work</option>
+                            </select>
+                            <input class="p-2 m-2" type="text" placeholder="Location Of Bussiness">
+                            <input class="p-2 m-2" type="text" placeholder="id-proof-drving licence">
+                            <textarea class="p-2 m-2">Additional information</textarea>
+                            <button type="button" class="btn btn-danger my-5 p-2 m-2">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="UpcomingActivityclosetoyou">
+            <div class="d-flex flex-column align-items-center my-5">
+                <h1>Upcoming Activity close to you</h1>
+                <p>Dictum non consectetur a erat nam at lectus. Risus nec feugiat in fermentum posuere urnaem
+                    viverra aliquse aliqu.</p>
+            </div>
+            <div class="row mx-2">
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img class="mx-2 my-2 rounded-3 img-fluid"
+                            src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                        <p class="p-2">Sed faucibus aliquam faucibus hasell. Lorem ipsum dolor sit amet, consectetur
+                            adipisci
+                            ng...</p>
+                        <hr>
+                        <div class="d-flex mx-4">
+                            <i class="fa-solid fa-martini-glass fs-2 my-2"></i>
+                            <div class="mx-4">
+                                <h5>Pub and Bar</h5>
+                                <h4>Drunken Bar</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-light mx-2 my-3">Form $ 240</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg my-2">
+                        <img class="mx-2 my-2 img-fluid rounded-3"
+                            src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                        <p class="p-2">erem ipsum dolor sit amet, consectetur adipisci ng elit. Sed faucibus aliquam
+                            faucibus...
+                        </p>
+                        <hr>
+                        <div class="d-flex mx-4">
+                            <i class="fa-solid fa-clapperboard fs-2n my-2"></i>
+                            <div class="mx-4">
+                                <h5>Movies & Event</h5>
+                                <h4>Akira-Anime</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-light mx-2 my-3">Form $ 240</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg my-2">
+                        <img class="mx-2 my-2 img-fluid rounded-3" 
+                            src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="">
+                        <p class="p-2">Fed faucibus aliquam faucibus hasell. Lorem ipsum dolor sit amet, consectetur
+                            adipisci
+                            ng...</p>
+                        <hr>
+                        <div class="d-flex mx-4">
+                            <i class="fa-solid fa-binoculars fs-2 my-2"></i>
+                            <div class="mx-4">
+                                <h5>Destination</h5>
+                                <h4>Dukemilan Stakes</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-light 4 my-3">Form $ 240</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg my-2">
+                        <img class="mx-2 my-2 img-fluid rounded-3"
+                            src="https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="">
+                        <p class="p-2">Durem ipsum dolor sit amet, consectetur adipisci ng elit. Sed faucibus
+                            aliquam
+                            faucibus...</p>
+                        <hr>
+                        <div class="d-flex mx-4">
+                            <i class="fa-solid fa-clapperboard fs-2 my-2"></i>
+                            <div class="mx-2">
+                                <h5>Movies & Events</h5>
+                                <h4>Drive-Hollywood</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-light mx-2 my-3">Form $ 240</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="SeeWhatPeopleSayingAboutUs">
+            <div class="d-flex flex-column align-items-start my-5">
+                <h1>See What People Saying About Us</h1>
+                <p>Zenean sit amet mauris ornare, facilisis lectus nec. Morbi vitae finibus felis. Curabitur nisi
+                    quam, venenatis ac ipsum et, dictum pellente ue lacus. Aenean sit acus.</p>
+            </div>
+            <div class="row ">
+                <div class="col-md-6">
+                    <div class="card shadow-lg ">
+                        <div class="row m-2">
+                            <div class="col-md-4">
+                                <img class="img-fluid m-1"
+                                    src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="">
+                                <h1 class=" fs-3 text-center">Andrea jamea</h1>
+                                <h4 class="text-center">Designer</h4>
+                            </div>
+                            <div class="col-md-8 p-5">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <p class="fw-bold my-2 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Maxime, vitae qui.
+                                    Odio,
+                                    nesciunt adipisci? Ratione perspiciatis consectetur necessitatibus tenetur enim.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow-lg">
+                        <div class="row m-2">
+                            <div class="col-md-4">
+                                <img class="img-fluid m-1 "
+                                    src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="">
+                                <h1 class="fs-3 text-center">Andrea jamea</h1>
+                                <h4 class="text-center">Designer</h4>
+                            </div>
+                            <div class="col-md-8 p-5">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <p class="fw-bold my-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Maxime, vitae qui.
+                                    Odio,
+                                    nesciunt adipisci? Ratione perspiciatis consectetur necessitatibus tenetur enim.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jusDial  ">
+            <div class="row mx-1">
+                <div class="col-md-3">
+                    <h1 class="mx-2 fs-1 fw-bold">JusDial</h1>
+                    <p class="my-4">Donec sollicitudin metus eu dictum consectetur. Morbi tempor nulla sit amet
+                        bibendum maxi
+                        mus. Vestibulum at enim at sapiend.</p>
+                    <i class="fa-brands fa-facebook-f mx-2"></i>
+                    <i class="fa-brands fa-instagram mx-2"></i>
+                    <i class="fa-brands fa-twitter mx-2"></i>
+                    <i class="fa-brands fa-linkedin-in mx-2"></i>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 class="fs-5 fw-bold">Contact Us</h1>
+                            <h6 class="my-4">Community</h6>
+                            <h6 class="my-4">Blog</h6>
+                            <h6 class="my-4">Forums</h6>
+                            <h6 class="my-4">Meetup</h6>
+                        </div>
+                        <div class="col-md-6">
+                            <h1 class="fs-5 fw-bold">Our Services</h1>
+                            <h6 class="my-4">International Holidays</h6>
+                            <h6 class="my-4">Bus Booking</h6>
+                            <h6 class="my-4">Train Ticket Booking</h6>
+                            <h6 class="my-4">Trip Ideas</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h1 class="fs-5 fw-bold">About Us</h1>
+                    <h6 class="my-4">Airlines</h6>
+                    <h6 class="my-4">Book Flight From UAE </h6>
+                    <h6 class="my-4">Book HOtel From UAE </h6>
+                    <h6 class="my-4">cab Booking</h6>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="fs-5 fw-bold">Newsletter</h1>
+                    <p class="my-4">Ut id mauris erat. Pellentesque ultrices, toror ut ta augue, vel accumsan
+                        ante felis eu
+                        erat</p>
+                    <input type="email" placeholder="Your Email">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

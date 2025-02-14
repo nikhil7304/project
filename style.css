@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#hero {
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+}
+
+#hero h1 {
+    font-size: 3.5rem;
+    width: 50rem;
+    padding: 1rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    color: white;
+}
+
+#hero p {
+    padding: 1rem;
+    font-size: 1rem;
+    width: 60rem;
+    font-weight: 500;
+    margin-left: 2rem;
+    color: white;
+}
+
+#hero .row {
+    margin-left: 2rem;
+}
+
+#places {
+    margin-top: -4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.DiscoverNearbyPlaces {
+    margin-top: 5rem;
+}
+
+.DiscoverNearbyPlaces h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.DiscoverNearbyPlaces p {
+    text-align: center;
+}
+
+.CheapAndChearfulDestination {
+    margin-top: 4rem;
+}
+
+.CheapAndChearfulDestination h1 {
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.CheapAndChearfulDestination p {
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+}
+
+.PlanVaccationtotheFullest h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.PlanVaccationtotheFullest p {
+    text-align: center;
+}
+
+.PlanVaccationtotheFullest .row {
+    margin-top: 3rem;
+}
+
+.EnjoyAShtonoshingDiscountsandOffer h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    width: 45rem;
+}
+
+.EnjoyAShtonoshingDiscountsandOffer p {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.DontWaitAnyLonger h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.DontWaitAnyLonger p {
+    width: 30rem;
+    text-align: center;
+}
+
+.DontWaitAnyLonger h5 {
+    font-size: 1rem;
+}
+
+.rightrow h1 {
+    font-size: 2rem;
+}
+
+.rightrow h5 {
+    font-size: 1rem;
+}
+
+.merelyfewstepaway h1 {
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.merelyfewstepaway p {
+    padding: 2rem;
+    font-weight: 500;
+}
+.merelyfewstepaway .card {
+
+    background-image: url('https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-position: center;
+    background-size: cover;
+}
+
+.UpcomingActivityclosetoyou {
+    margin-top: 5rem;
+}
+
+.UpcomingActivityclosetoyou h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.UpcomingActivityclosetoyou h4 {
+    font-size: 1rem;
+}
+
+.SeeWhatPeopleSayingAboutUs {
+    margin-top: 5rem;
+}
+
+.SeeWhatPeopleSayingAboutUs h1 {
+    font-size: 2.5rem;
+}
+
+.jusDial {
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+
+
+#hero2 {
+    height: 70vh;
+    background-image: url("https://images.pexels.com/photos/2422557/pexels-photo-2422557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+@media screen and (max-width:425px) {
+    #hero {
+        height: 100%;
+    }
+    #hero h1 {
+        width: 100%;
+        font-size: 1rem;
+        padding: 1rem;
+        font-weight: bold;
+        color: white;
+        margin-top: 5rem;
+    }
+    #hero p{
+        width: 100%;
+        margin-left: 1rem;
+    }
+    #places{
+        margin-top: 4rem;
+    }
+    .DiscoverNearbyPlaces h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .DiscoverNearbyPlaces p{
+        margin-top: 1rem;
+    }
+    .CheapAndChearfulDestination{
+        margin-top: 1rem;
+    }
+    .CheapAndChearfulDestination h1{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .CheapAndChearfulDestination p{
+        text-align: center;
+    }
+    .CheapAndChearfulDestination h3{
+        font-size: 1.2rem;  
+    }
+    .PlanVaccationtotheFullest{
+        margin-top: 1rem;
+    }
+    .PlanVaccationtotheFullest h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+}   
+.EnjoyAShtonoshingDiscountsandOffer h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    text-align: center;
+    width: 100%;}
+
+    .EnjoyAShtonoshingDiscountsandOffer p{
+        text-align: center;
+    }
+    .DontWaitAnyLonger h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center
+        }
+        .DontWaitAnyLonger p {
+            width: 100%;
+            text-align: center;
+        }
+        .merelyfewstepaway h1 {
+            padding: 1rem;
+            font-size: 1rem;
+            font-weight: bold;
+        }  
+        .merelyfewstepaway p {
+            padding: 1rem;
+        }
+       .UpcomingActivityclosetoyou {
+            margin-top: 3rem; 
+        }   
+        .UpcomingActivityclosetoyou h1 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        .UpcomingActivityclosetoyou p {
+            margin-top: 1rem;  
+            text-align: center;
+        }
+        .SeeWhatPeopleSayingAboutUs {
+            margin-top: 3rem;
+        }
+        .SeeWhatPeopleSayingAboutUs h1 {
+            font-size: 1.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .SeeWhatPeopleSayingAboutUs p{
+            text-align: center;
+        }
+        .jusDial {
+            margin-top: 4rem;
+        }
+
+}
+
+
+
+
