@@ -12,17 +12,14 @@
 
 #hero h1 {
     font-size: 3.5rem;
-    width: 50rem;
-    padding: 1rem;
+    padding: 2rem;
     font-weight: bold;
-    margin-left: 2rem;
     color: white;
 }
 
 #hero p {
     padding: 1rem;
     font-size: 1rem;
-    width: 60rem;
     font-weight: 500;
     margin-left: 2rem;
     color: white;
@@ -45,9 +42,6 @@
 .DiscoverNearbyPlaces h1 {
     font-size: 2rem;
     font-weight: 700;
-}
-
-.DiscoverNearbyPlaces p {
     text-align: center;
 }
 
@@ -82,17 +76,20 @@
 .EnjoyAShtonoshingDiscountsandOffer h1 {
     font-size: 2.5rem;
     font-weight: bold;
-    margin-left: 1rem;
-    width: 45rem;
+    margin: 1rem;
+    margin-top: 4rem;
+    text-align: center;
 }
 
 .EnjoyAShtonoshingDiscountsandOffer p {
     font-size: 1rem;
-    margin-left: 1rem;
+    margin: 1rem;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .DontWaitAnyLonger h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -106,7 +103,7 @@
 }
 
 .rightrow h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .rightrow h5 {
@@ -123,6 +120,7 @@
     padding: 2rem;
     font-weight: 500;
 }
+
 .merelyfewstepaway .card {
 
     background-image: url('https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg?auto=compress&cs=tinysrgb&w=600');
@@ -172,105 +170,137 @@
     #hero {
         height: 100%;
     }
+
     #hero h1 {
-        width: 100%;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: bold;
         color: white;
         margin-top: 5rem;
     }
-    #hero p{
-        width: 100%;
-        margin-left: 1rem;
-    }
-    #places{
+
+    .places {
         margin-top: 4rem;
     }
-    .DiscoverNearbyPlaces h1{
+
+    .DiscoverNearbyPlaces h1 {
         font-size: 1.5rem;
         text-align: center;
     }
-    .DiscoverNearbyPlaces p{
+
+    .DiscoverNearbyPlaces p {
         margin-top: 1rem;
     }
-    .CheapAndChearfulDestination{
+
+    .CheapAndChearfulDestination {
         margin-top: 1rem;
     }
-    .CheapAndChearfulDestination h1{
+
+    .CheapAndChearfulDestination h1 {
         font-size: 1.5rem;
         text-align: center;
         margin-bottom: 2rem;
     }
-    .CheapAndChearfulDestination p{
+
+    .CheapAndChearfulDestination p {
         text-align: center;
     }
-    .CheapAndChearfulDestination h3{
-        font-size: 1.2rem;  
+
+    .CheapAndChearfulDestination h3 {
+        font-size: 1.2rem;
     }
-    .PlanVaccationtotheFullest{
+
+    .PlanVaccationtotheFullest {
         margin-top: 1rem;
     }
+
     .PlanVaccationtotheFullest h1 {
         font-size: 1.5rem;
         font-weight: bold;
         text-align: center;
-}   
-.EnjoyAShtonoshingDiscountsandOffer h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-left: 1rem;
-    text-align: center;
-    width: 100%;}
-
-    .EnjoyAShtonoshingDiscountsandOffer p{
-        text-align: center;
     }
-    .DontWaitAnyLonger h1 {
+
+    .EnjoyAShtonoshingDiscountsandOffer h1 {
         font-size: 1.5rem;
         font-weight: bold;
+        margin-left: 1rem;
+        text-align: center;
+    }
+
+    .EnjoyAShtonoshingDiscountsandOffer p {
+        text-align: center;
+    }
+
+    .DontWaitAnyLonger h1 {
+        font-weight: bold;
         text-align: center
-        }
-        .DontWaitAnyLonger p {
-            width: 100%;
-            text-align: center;
-        }
-        .merelyfewstepaway h1 {
-            padding: 1rem;
-            font-size: 1rem;
-            font-weight: bold;
-        }  
-        .merelyfewstepaway p {
-            padding: 1rem;
-        }
-       .UpcomingActivityclosetoyou {
-            margin-top: 3rem; 
-        }   
-        .UpcomingActivityclosetoyou h1 {
-            font-size: 1.5rem;
-            font-weight: bold;
-            text-align: center;
-        }
-        .UpcomingActivityclosetoyou p {
-            margin-top: 1rem;  
-            text-align: center;
-        }
-        .SeeWhatPeopleSayingAboutUs {
-            margin-top: 3rem;
-        }
-        .SeeWhatPeopleSayingAboutUs h1 {
-            font-size: 1.5rem;
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        .SeeWhatPeopleSayingAboutUs p{
-            text-align: center;
-        }
-        .jusDial {
-            margin-top: 4rem;
-        }
+    }
+
+    .DontWaitAnyLonger p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .merelyfewstepaway h1 {
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .merelyfewstepaway p {
+        padding: 1rem;
+    }
+
+    .UpcomingActivityclosetoyou {
+        margin-top: 3rem;
+    }
+
+    .UpcomingActivityclosetoyou h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .UpcomingActivityclosetoyou p {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .SeeWhatPeopleSayingAboutUs {
+        margin-top: 3rem;
+    }
+
+    .SeeWhatPeopleSayingAboutUs h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .SeeWhatPeopleSayingAboutUs p {
+        text-align: center;
+    }
+
+    .jusDial {
+        text-align: center;
+        margin-top: 4rem;
+    }
 
 }
 
+@media screen and (max-width:768px) {
+    #hero h1 {
+        font-size: 2rem;
+    }
 
+    #hero p {
+        font-size: 1.2rem;
+    }
 
+    #places {
+        margin-top: -2rem;
+    }
 
+    #places h1 {
+        font-size: 1.2rem;
+    }
+
+}
